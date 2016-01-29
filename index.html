@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="sass/response.css">
+
+        <title>104 Productions</title>
+    </head>
+<body id="body">
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
+        <div class="mdl-layout__header mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <div class="mdl-layout__drawer-button">
+                <button id="about-me" data-toggle="modal" data-target="#myModal" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                    <img  src="images/pacman.svg">
+                </button>
+                    </div>
+              <span class="title mdl-layout-title">
+                  <h6>
+                      The Web Dev Portfolio of Nicholas Toscano
+                  </h6>
+              </span>
+
+                <!-- Add spacer, to align navigation to the right in desktop -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <div class="android-navigation-container">
+
+                    <nav class="mdl-navigation">
+
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://nicktoscano.contently.com/">Content</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.linkedin.com/in/nicholastoscano">LinkedIn</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="images/N_Toscano_Resume.pdf">Resume</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/Nick-t-go">GitHub</a>
+                    </nav>
+                </div>
+                <!-- Right aligned menu below button -->
+                <button id="demo-menu-lower-right"
+                        class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                </button>
+                </div>
+            </div>
+    </div>
+
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-right">
+        <a href="#quest-link"><li class="mdl-menu__item">Quest - Web App</li></a>
+        <a href="#blue"><li class="mdl-menu__item">AquaTest - Mobile App</li></a>
+        <a href="#green"><li class="mdl-menu__item last">Galactic Attack - HTML5 Game</li></a>
+        <div class="added">
+        <a class="mdl-menu__item last" href="https://nicktoscano.contently.com/">Content</a>
+        <a class="mdl-menu__item last" href="https://www.linkedin.com/in/nicholastoscano">LinkedIn</a>
+        <a class="mdl-menu__item last" href="images/N_Toscano_Resume.pdf">Resume</a>
+        <a class="mdl-menu__item last" href="https://github.com/Nick-t-go">GitHub</a>
+        </div>
+    </ul>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">About Me</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Hello, thank you for visiting my site and checking out some of my work.
+                        My career thus far has taken me many places and allowed me to be part
+                        of some amazing teams. I started my career as a Geographic Information Systems(GIS)
+                        Analyst in Syracuse, NY. Three years later I decided
+                        to break out and visit China. I lived in Beijing China for four years teaching
+                        English and continuing working in GIS part-time. After I returned to the states
+                        I spent a little more time in GIS before beginning work at SkilledUp. There I learned
+                        about a cornucopia of resources for learning web development. A year and change later I decided to
+                        attend Fullstack Academy of Code. I spent six months there in their Immersive Coding
+                        Bootcamp learning the ins and outs of the MEAN stack as well as a handful of other technologies.
+                        Please take a look at the web dev projects I have worked on so far. Thanks again!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="background">
+    </div>
+
+    <div id="red" class="specialcontainer">
+        <div class = "container">
+
+            <div class="row" id="quest-link">
+                <div class="col-xs-3 app-titles center-block">
+                    <a href="http://dronuts.herokuapp.com/">
+                        <h2>Quest</h2>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-x3 logo-group">
+                    <img class="image" style="margin-left:20px; height:33px; width:100px;" src="images/OriginalLogos/mongodb-logo.png">
+                    <img class="image" style="top:7px; margin-left:20px; height:64px; width:64px;" src="images/OriginalLogos/express-logo.png">
+                    <img class="image" style="height:64px; width:64px;" src="images/OriginalLogos/angularjs.png">
+                    <img class="image" style="margin-left:20px; height:40px; width:80px;" src="images/OriginalLogos/node.png">
+                    <img class="image" style="margin-left:20px; height:40px; width:40px;" src="images/OriginalLogos/Googlemapslogo2014.png">
+                </div>
+            </div>
+
+            <div class="row" >
+
+                <div class="fixedContainer col-xs-8 col-sm-5 col-md-6 col-lg-5" id="something" >
+                    <video  class="mobile" width="100%" controls autoplay loop muted>
+                        <source src="video/Quest.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="col-xs-5 col-sm-6 col-md-6 col-lg-6 vertical-center" >
+                    <div class="list-group">
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Skilled MEAN Build</h4>
+                                <p class="list-group-item-text">Built with the MEAN stack.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Material Design</h4>
+                                <p class="list-group-item-text">Styled using Angular Materiel.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Real-time Notifications</h4>
+                                <p class="list-group-item-text">Utilizes Socket.io which allows users to get notifications of all relevant activity in real-time.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+                        <div class="list-group-item">
+
+                            <div class="row-content">
+                                <a id="git" href="https://github.com/crcarrick/dronuts" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                <img class="logo-image git"  src="images/git.png">
+                                </a>
+                                <a id="web" href="http://dronuts.herokuapp.com/" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                <img class="logo-image" src="images/ic_web_black_24px.svg"></a>
+                            </div>
+                        </div>
+
+                    <div class="mdl-tooltip" for="git">
+                        Check it out on<br>GitHub!
+                    </div>
+
+                    <div class="mdl-tooltip" for="web">
+                        See the live demo on<br>Heroku!
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="specialcontainer" id="blue" >
+        <div class = "container">
+
+            <div class="row">
+                <div class="col-xs-3 app-titles center-block">
+                    <a href="https://play.google.com/store/apps/details?id=com.aquatest.app">
+                        <h2>AquaTest</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-x3 logo-group">
+                    <img class="image" style=" height:32px; width:134px;" src="images/OriginalLogos/ionic-angular-opti.png">
+                    <img class="image" style="margin-left:20px; height:25px; width:114px;" src="images/OriginalLogos/firebase-logo.png">
+                    <img class="image" style="margin-left:20px; height:32px; width:32px;" src="images/OriginalLogos/Logo_D3.png">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="fixedContainer col-xs-6 col-sm-4 col-md-4 col-lg-3" id="something3">
+                    <video  class="mobile" width="100%" controls autoplay loop muted>
+                        <source src="video/AquaTest.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="col-xs-5 col-sm-5 col-md-6 col-lg-6 vertical-center">
+                    <div class="list-group">
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Launched Mobile App</h4>
+                                <p class="list-group-item-text">Made with Ionic, and Angularjs app is currently available on the Google Play Store.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Firebase</h4>
+                                <p class="list-group-item-text">User authentication, data storage, and all CRUD operations handled through Firebase.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Utilizes D3</h4>
+                                <p class="list-group-item-text">Users can conveniently view graphs of test results thanks to D3 integration and visualizations.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <a href="https://github.com/Nick-t-go/monitor" id="git2" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                     <img class="logo-image git"  src="images/git.png">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.aquatest.app" id="google" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                     <img class="logo-image" src="images/ic_android_black_24px.svg"></a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-tooltip" for="git2">
+                        Check it out on<br>GitHub!
+                    </div>
+
+                    <div class="mdl-tooltip" for="google">
+                        Download at the<br>Google Play Store!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="specialcontainer" id="green">
+        <div class = "container">
+
+            <div class="row">
+                <div class="col-xs-3 app-titles center-block">
+                    <a href="https://classappphaser.herokuapp.com/whack">
+                  <h2>Galactic Attack Invasion</h2>
+                        </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-x3 logo-group">
+                    <img class="image"  src="images/OriginalLogos/js.jpg">
+                    <img class="image"  src="images/OriginalLogos/html5.png">
+                    <img class="image"  src="images/OriginalLogos/phaser.png">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="fixedContainer col-xs-6 center-block col-sm-4 col-md-4 col-lg-3" id="something3">
+                    <video  class="mobile" width="100%" controls autoplay loop muted>
+                        <source src="video/AlienInvasion.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="col-xs-5 col-sm-5 col-md-6 col-lg-6 vertical-center">
+                    <div class="list-group">
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">HTML5 Web Game</h4>
+                                <p class="list-group-item-text">Made with Phaser, a JavaScript based  gaming engine built on pixi.js</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Socketed for Mobile Control</h4>
+
+                                <p class="list-group-item-text">The app is optimized with Nunchuckjs so that users may use their phone as a controller.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Ongoing Development</h4>
+                                <p class="list-group-item-text">Artist and I continue to sketch out new assets and idea. Stay tuned for new levels</p>
+                            </div>
+                        </div>
+
+                        <div class="list-group-separator"></div>
+                        <div class="list-group-item">
+                            <div class="row-content">
+                                <a href="https://github.com/Nick-t-go/Galactic-Attack" id="git3" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                    <img class="logo-image git"  src="images/git.png">
+                                </a>
+                                <a href="https://classappphaser.herokuapp.com/whack" id="web2" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button">
+                                    <img class="logo-image" src="images/ic_web_black_24px.svg">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-tooltip" for="git3">
+                        Check it out on<br>GitHub!
+                    </div>
+
+                    <div class="mdl-tooltip" for="web2">
+                        Play it now on<br>Heroku!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MDL Mini Footer Container-->
+    <footer class="mdl-mini-footer">
+
+        <!-- MDL Footer left Section-->
+        <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">Nicholas Toscano</div>
+            <!-- MDL Footer link-list -->
+            <ul class="mdl-mini-footer__link-list">
+                <address>
+                    <a href="mailto:nickteach888@gmail.com">Contact</a>
+                </address>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script defer="true" src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+
+</body>
+</html>
+
+

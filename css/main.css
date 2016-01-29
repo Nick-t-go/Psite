@@ -1,0 +1,143 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#background {
+    position:relative;
+    background: #F8FBDD;
+    height:750px;
+    background-image: url("../images/wordCloud.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.specialcontainer{
+    width:100%;
+    position:relative;
+    height:1000px;
+    overflow:hidden;
+}
+#red {
+    background-color: #E1E4BD;
+    border-top: solid 1px #043e46;
+    height:800px;
+}
+
+.added{
+    display:none;
+}
+
+#blue {
+    background-color: #DBFDD2;
+    border-top: solid 1px #043e46;
+}
+
+#green {
+    background-color: #A5C89C;
+    border-top: solid 1px #043e46;
+}
+
+.fixedContainer {
+    margin-top: 10%;
+    z-index: 10;
+    position:absolute;
+    background-color:transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.mdl-layout__header {
+    background-color: #043e46;
+}
+
+#something {
+    height: 100%;
+    text-align:center;
+    left: 75%
+}
+
+
+#something2, #something3 {
+    height: 100%;
+    text-align:center;
+    left: 75%
+}
+
+.mdl-layout__drawer-button{
+    height:60px;
+    width: 70px;
+}
+
+.title h6{
+    line-height: 56px;
+    margin:auto;
+}
+
+.mdl-layout__header-row {
+    height: 70px;
+}
+
+
+
+.app-titles h2{
+    color: #043e46;
+}
+
+/*video .web{*/
+    /*height: 100%;*/
+    /*max-width: 400px;*/
+    /*text-align:center;*/
+
+
+/*}*/
+
+.vertical-center {
+    margin-top: 3%;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.contain{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mdl-button--fab{
+    background: lightgreen;
+}
+
+.logo-image {
+    margin-top: .65em;
+}
+
+.git{
+    margin-top: .5em;
+    height: 30px;
+    width: 30px;
+}
+
+.contain {
+    margin-top: 5%;
+}
+
+.image{
+    height:64px;
+    width: 64px;
+    margin-left:20px;
+}
+
+.mdl-button{
+    margin-right: 5px;
+}
+
+.mdl-layout .mdl-js-layout .mdl-layout--fixed-header {
+    position: relative;
+}
+
+
+
+/*video .mobile{*/
+    /*max-height: 10px;*/
+    /*max-width: 352px;*/
+/*}*/
