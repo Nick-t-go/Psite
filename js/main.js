@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
 var pageScroll = function() {
-    if ($(window).width() > 960) {
+    if ($(window).width() > 975) {
         $(document).scroll(function () {
             console.log($(window).width());
             var $target = $('specialcontainer');
