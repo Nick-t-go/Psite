@@ -15,12 +15,15 @@ h2 {
     font-size: 2.8em;
     float: none;
     margin: 0 auto; } }
-@media (max-width: 960px) {
+@media (max-width: 975px) {
   .specialcontainer {
     height: 700px; }
 
   .mdl-layout__header-row {
     height: 65px; }
+
+  .fixedContainer {
+    margin-top: 0; }
 
   .title h6 {
     font-size: 0.75em; }

@@ -1,5 +1,5 @@
 
-$mediaBp1Width: 960px;
+$mediaBp1Width: 975px;
 $mediaBp2Width:600px;
 $mediaBp3Width: 768px;
 
@@ -42,6 +42,12 @@ h2{
 
   .mdl-layout__header-row {
     height: 65px;
+  }
+
+
+
+  .fixedContainer{
+    margin-top: 0;
   }
 
 
