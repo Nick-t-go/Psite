@@ -92,6 +92,10 @@
 
 /*}*/
 
+video{
+    box-shadow: 10px 10px 5px #888888;
+}
+
 .vertical-center {
     margin-top: 3%;
     justify-content: center;
@@ -144,6 +148,8 @@
 .list-group{
     border: solid 1px #043e46;
     border-radius: 4px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 3%;
 }
 
 .list-group-item {
