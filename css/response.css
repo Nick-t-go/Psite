@@ -39,8 +39,8 @@ h2 {
     margin-top: 0;
     display: inline-block; }
 
-  #something, #something2, #something3 {
-    margin-top: 3%; }
+  .logo-group {
+    padding-bottom: 3em; }
 
   #something3 video {
     position: relative; }
@@ -54,7 +54,10 @@ h2 {
     margin: auto; }
 
   #green {
-    height: 1100px; } }
+    height: 1100px; }
+
+  #something {
+    margin-top: auto; } }
 @media (max-width: 768px) {
   .specialcontainer {
     height: 1000px; }

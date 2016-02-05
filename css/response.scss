@@ -28,6 +28,7 @@ h2{
     float: none;
     margin: 0 auto;
   }
+
 }
 
 // This will generate unwanted results!
@@ -71,9 +72,10 @@ h2{
     margin-top: 0;
     display: inline-block;
   }
-  #something, #something2, #something3{
-      margin-top: 3%;
-    }
+
+  .logo-group {
+  padding-bottom: 3em;
+}
 
   #something3 video{
     position: relative;
@@ -92,6 +94,10 @@ h2{
 
   #green {
     height: 1100px;
+  }
+
+  #something{
+    margin-top: auto;
   }
 
 }

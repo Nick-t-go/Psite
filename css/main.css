@@ -54,7 +54,8 @@
 #something {
     height: 100%;
     text-align:center;
-    left: 75%
+    left: 75%;
+    margin-top:15%
 }
 
 
@@ -116,6 +117,8 @@ video{
     margin-top: .65em;
 }
 
+
+
 .git{
     margin-top: .5em;
     height: 30px;
@@ -149,12 +152,20 @@ video{
     border: solid 1px #043e46;
     border-radius: 4px;
     box-shadow: 10px 10px 5px #888888;
-    margin-top: 3%;
+
 }
 
 .list-group-item {
     border: 0;
     margin-bottom: 0;
+}
+
+#quest-box {
+    margin-top: 25px;
+}
+
+.app-titles{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 
