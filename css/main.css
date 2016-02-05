@@ -141,6 +141,16 @@
 }
 
 
+.list-group{
+    border: solid 1px #043e46;
+    border-radius: 4px;
+}
+
+.list-group-item {
+    border: 0;
+    margin-bottom: 0;
+}
+
 
 /*video .mobile{*/
     /*max-height: 10px;*/
