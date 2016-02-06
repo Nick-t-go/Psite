@@ -6,7 +6,10 @@ h2 {
     margin-top: 100px; }
 
   .app-titles {
-    white-space: nowrap; } }
+    white-space: nowrap; }
+
+  #quest-box {
+    margin-top: 10px; } }
 @media (max-width: 1000px) {
   .container {
     margin: auto; }
@@ -51,10 +54,7 @@ h2 {
     margin: auto; }
 
   #green {
-    height: 1100px; }
-
-  #something {
-    margin-top: auto; } }
+    height: 1100px; } }
 @media (max-width: 768px) {
   .specialcontainer {
     height: 1000px; }
@@ -85,12 +85,12 @@ h2 {
     margin: auto;
     padding: 10px; }
 
-  .fixedContainer {
-    all: initial; }
-
   #something3 {
     margin: auto;
     transform: none; }
+
+  .fixedContainer {
+    all: initial; }
 
   .vertical-center {
     all: initial;

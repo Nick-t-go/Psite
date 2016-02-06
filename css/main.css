@@ -38,7 +38,7 @@
 }
 
 .fixedContainer {
-    margin-top: 10%;
+    margin-top: 15%;
     z-index: 10;
     position:absolute;
     background-color:transparent;
@@ -55,7 +55,6 @@
     height: 100%;
     text-align:center;
     left: 75%;
-    margin-top:15%
 }
 
 
@@ -160,9 +159,6 @@ video{
     margin-bottom: 0;
 }
 
-#quest-box {
-    margin-top: 25px;
-}
 
 .app-titles{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;

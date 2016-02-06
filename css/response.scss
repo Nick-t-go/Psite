@@ -15,11 +15,17 @@ h2{
   .app-titles{
     white-space: nowrap
   }
+
+  #quest-box{
+    margin-top:10px
+  }
+
 }
 
 
 
 @media (max-width: 1000px){
+
   .container{
     margin: auto;
   }
@@ -29,9 +35,9 @@ h2{
     margin: 0 auto;
   }
 
+
 }
 
-// This will generate unwanted results!
 @media (max-width: $mediaBp1Width) {
 
 
@@ -74,6 +80,8 @@ h2{
     position: relative;
   }
 
+
+
   .logo-group{
 
     text-wrap: normal;
@@ -89,9 +97,6 @@ h2{
     height: 1100px;
   }
 
-  #something{
-    margin-top: auto;
-  }
 
 }
 
@@ -139,13 +144,15 @@ h2{
     padding: 10px;
   }
 
-  .fixedContainer{
-    all: initial;
-  }
   #something3 {
     margin: auto;
     transform: none;
   }
+
+  .fixedContainer{
+    all: initial;
+  }
+
 
   .vertical-center{
     all: initial;
