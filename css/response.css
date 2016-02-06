@@ -63,7 +63,10 @@ h2 {
     font-size: .55em; }
 
   .mdl-navigation a {
-    font-size: .55em; } }
+    font-size: .55em; }
+
+  #something {
+    padding-right: 7%; } }
 @media (max-width: 600px) {
   .title h6 {
     font-size: .5em; }

@@ -102,6 +102,9 @@ h2{
 
 @media (max-width: $mediaBp3Width) {
 
+
+
+
   .specialcontainer{
     height:1000px;
   }
@@ -112,6 +115,10 @@ h2{
 
   .mdl-navigation a {
     font-size: .55em;
+  }
+
+  #something{
+    padding-right: 7%
   }
 }
 
