@@ -7,7 +7,9 @@
             {"name": "JavaScript", "size": 300000},
             {"name": "HTML", "size": 300000},
             {"name": "CSS", "size": 300000},
-            {"name": "Angular", "size": 300000}
+            {"name": "Angular", "size": 300000},
+            {"name": "MongoDB", "size": 300000},
+            {"name": "Socket.IO", "size": 300000}
       ]
     },
     {
@@ -16,6 +18,14 @@
         {"name": "ArcGIS", "size": 400000},
         {"name": "Google Maps API", "size": 300000},
         {"name": "LeafLet", "size": 200000}
+      ]
+    },
+    {
+      "name": "Hobbies", "size": 500000,
+      "children": [
+        {"name": "Gardening", "size": 400000},
+        {"name": "PC Gaming", "size": 300000},
+        {"name": "Aquaponics", "size": 200000}
       ]
     }
 
