@@ -108,5 +108,11 @@ h2 {
 
   video {
     width: 70%; } }
+@media (max-width: 500px) {
+  .logo-group {
+    display: none; }
+
+  .app-titles {
+    padding-right: 100px; } }
 
 /*# sourceMappingURL=response.css.map */
