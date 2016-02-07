@@ -191,21 +191,24 @@ h2{
 @media (max-width: $mediaBp4Width){
 
 
-  .col-xs-5,.col-xs-6, .fixedContainer {
+
+
+
+  .col-xs-5,.col-xs-6, .fixedContainer  {
     width:100%;
     font-size: .5em;
     margin-right: -15px;
     margin-left: -15px;
   }
 
-  .col-xs-5:after, .col-xs-6:after, .fixedContainer{
+  .col-xs-5:after, .col-xs-6:after, .fixedContainer:after{
     content: "";
     display: table;
     clear: both;
 
   }
 
-  .col-xs-5:before, .col-xs-6:before, .fixedContainer {
+  .col-xs-5:before, .col-xs-6:before, .fixedContainer:before{
     content: "";
     display: table;
     clear: both;
