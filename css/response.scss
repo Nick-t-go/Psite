@@ -131,6 +131,8 @@ h2{
 @media (max-width: $mediaBp2Width){
 
 
+
+
   #background{
     height: 450px;
     background-size: 150%;
@@ -163,7 +165,7 @@ h2{
     padding: 10px;
   }
 
-  #something3 {
+  #something2, #something3 {
     margin: auto;
     transform: none;
   }
@@ -194,6 +196,9 @@ h2{
 
 
 
+
+
+
   .small-row  {
     width:100%;
     font-size: .5em;
@@ -214,6 +219,7 @@ h2{
     clear: both;
 
   }
+
 
 
 }
