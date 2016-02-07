@@ -131,7 +131,7 @@ h2 {
     display: table;
     clear: both; }
 
-  .hidden {
+  .hidden, .col-xs-5 .col-sm-5 .col-md-6 .col-lg-6 .vertical-center {
     display: block  !important;
     visibility: visible !important;
     width: 100% !important;
