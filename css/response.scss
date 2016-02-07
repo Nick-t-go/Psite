@@ -191,19 +191,24 @@ h2{
 @media (max-width: $mediaBp4Width){
 
 
-  .row{
-    all: initial;
-  }
-
   .col-xs-5,.col-xs-6 {
-    width:100%;
     font-size: .5em;
+    margin-right: -15px;
+    margin-left: -15px;
   }
 
   .col-xs-5:after, .col-xs-6:after {
     content: "";
     display: table;
     clear: both;
+
+  }
+
+  .col-xs-5:before, .col-xs-6:before {
+    content: "";
+    display: table;
+    clear: both;
+
   }
 
 
