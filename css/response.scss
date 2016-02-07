@@ -48,7 +48,7 @@ h2{
 
 
   .specialcontainer{
-    height:700px;
+    height:800px;
   }
 
 
@@ -74,7 +74,7 @@ h2{
   }
 
   .fixedContainer, {
-    margin-top: 3%;
+    margin-top: 2.5%;
     display: inline-block;
   }
 
@@ -103,16 +103,15 @@ h2{
     margin:auto;
   }
 
-  #green {
-    height: 1100px;
-  }
-
 
 }
 
 @media (max-width: $mediaBp3Width) {
 
-
+  .fixedContainer, {
+    margin-top: 3%;
+    display: inline-block;
+  }
 
 
   .specialcontainer{

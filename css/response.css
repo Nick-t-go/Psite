@@ -23,7 +23,7 @@ h2 {
     margin: 0 auto; } }
 @media (max-width: 975px) {
   .specialcontainer {
-    height: 700px; }
+    height: 800px; }
 
   .mdl-layout__header-row {
     height: 65px; }
@@ -39,7 +39,7 @@ h2 {
     flex-wrap: wrap; }
 
   .fixedContainer {
-    margin-top: 3%;
+    margin-top: 2.5%;
     display: inline-block; }
 
   .list-group {
@@ -57,11 +57,12 @@ h2 {
     padding: 10px; }
 
   h2 {
-    margin: auto; }
-
-  #green {
-    height: 1100px; } }
+    margin: auto; } }
 @media (max-width: 768px) {
+  .fixedContainer {
+    margin-top: 3%;
+    display: inline-block; }
+
   .specialcontainer {
     height: 1000px; }
 

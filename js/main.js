@@ -31,9 +31,9 @@ var pageScroll = function() {
     }
 
     if ($(window).width() < 376) {
-        $(document).find('.col-xs-5').removeClass('col-xs-5').addClass('col-xs-12');
+        $(document).find('.col-xs-6').removeClass('col-xs-6').addClass('col-xs-12');
     }else{
-        $(document).find('.col-xs-12').removeClass('col-xs-12').addClass('col-xs-5');
+        $(document).find('.col-xs-12').removeClass('col-xs-12').addClass('col-xs-6');
     }
 };
 
