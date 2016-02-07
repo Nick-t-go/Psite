@@ -195,8 +195,11 @@ h2{
     font-size: .5em;
   }
 
-
-
+  .col-xs-5:after, .col-xs-6:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 }

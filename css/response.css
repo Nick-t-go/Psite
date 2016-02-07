@@ -114,6 +114,11 @@ h2 {
 @media (max-width: 414px) {
   .col-xs-5, .col-xs-6 {
     width: 100%;
-    font-size: .5em; } }
+    font-size: .5em; }
+
+  .col-xs-5:after, .col-xs-6:after {
+    content: "";
+    display: table;
+    clear: both; } }
 
 /*# sourceMappingURL=response.css.map */
