@@ -3,6 +3,11 @@ $mediaBp1Width: 975px;
 $mediaBp2Width:600px;
 $mediaBp3Width: 768px;
 
+a:-webkit-any-link  {
+  text-decoration: none;
+}
+
+
 h2{
   color: #043e46;
 }

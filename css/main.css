@@ -25,10 +25,12 @@ line.link {
 #background {
     position:relative;
     background: #F8FBDD;
+    border-top: solid 1px #043e46;
     height:750px;
     background-image: url("../images/wordCloud.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 .specialcontainer{
     padding-top: 50px;
@@ -39,23 +41,38 @@ line.link {
 }
 #red {
     background-color: #E1E4BD;
+    background: -webkit-linear-gradient(#E1E4BD,white, #E1E4BD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E1E4BD,white, #E1E4BD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E1E4BD,white, #E1E4BD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E1E4BD,white, #E1E4BD); /* Standard syntax */
     border-top: solid 1px #043e46;
     height:800px;
 }
 
-.added{
-    display:none;
-}
+
 
 #blue {
     background-color: #DBFDD2;
+    background: -webkit-linear-gradient(#DBFDD2,white, #DBFDD2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#DBFDD2,white, #DBFDD2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#DBFDD2,white, #DBFDD2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#DBFDD2D,white, #DBFDD2); /* Standard syntax */
     border-top: solid 1px #043e46;
 
 }
 
 #green {
     background-color: #A5C89C;
+    background: -webkit-linear-gradient(#A5C89C,white, #A5C89C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A5C89C,white, #A5C89C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A5C89C,white, #A5C89C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A5C89C,white, #A5C89C); /* Standard syntax */
     border-top: solid 1px #043e46;
+}
+
+
+.added{
+    display:none;
 }
 
 .fixedContainer {
@@ -182,8 +199,27 @@ video{
 
 
 .app-titles{
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 0px 5px 10px #888888, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
+
+.app-titles a:hover, a:focus
+{
+
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+    outline: 0 none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+
+}
+
 
 
 /*video .mobile{*/
