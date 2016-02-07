@@ -76,7 +76,7 @@ h2 {
     padding-right: 7%; } }
 @media (max-width: 600px) {
   #background {
-    height: 450px;
+    height: 550px;
     background-size: 150%; }
 
   .title h6 {
