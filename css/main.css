@@ -29,7 +29,7 @@ line.link {
     position:relative;
     background: #F8FBDD;
     border-top: solid 1px #043e46;
-    height:750px;
+    height: 100vh;
     background-image: url("../images/wordCloud.png");
     background-repeat: no-repeat;
     background-position: center;
