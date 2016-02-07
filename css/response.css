@@ -1,115 +1,61 @@
-a:-webkit-any-link {
-  text-decoration: none; }
+/*
+Error: Invalid CSS after "    font-size": expected ";", was ": .5em;"
+        on line 195 of css/response.scss
 
-h2 {
-  color: #043e46; }
+190: 
+191: @media (max-width: $mediaBp4Width){
+192: 
+193:   .col-xs-5,.col-xs-6 {
+194:     width:50%
+195:     font-size: .5em;
+196:   }
+197: 
+198: 
+199: 
+200: 
 
-@media (min-width: 1000px) {
-  .container {
-    margin-top: 100px; }
-
-  .app-titles {
-    white-space: nowrap; }
-
-  #quest-box {
-    margin-top: 10px; } }
-@media (max-width: 1000px) {
-  .container {
-    margin: auto; }
-
-  .app-titles h2 {
-    font-size: 2.8em;
-    float: none;
-    margin: 0 auto; } }
-@media (max-width: 975px) {
-  .specialcontainer {
-    height: 700px; }
-
-  .mdl-layout__header-row {
-    height: 65px; }
-
-  .title h6 {
-    font-size: 0.75em; }
-
-  .mdl-navigation a {
-    font-size: 0.75em; }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap; }
-
-  .fixedContainer {
-    margin-top: 3%;
-    display: inline-block; }
-
-  .logo-group {
-    padding-bottom: 3em; }
-
-  #something3 video {
-    position: relative; }
-
-  .logo-group {
-    text-wrap: normal;
-    margin: auto;
-    padding: 10px; }
-
-  h2 {
-    margin: auto; }
-
-  #green {
-    height: 1100px; } }
-@media (max-width: 768px) {
-  .specialcontainer {
-    height: 1000px; }
-
-  .title h6 {
-    font-size: .55em; }
-
-  .mdl-navigation a {
-    font-size: .55em; }
-
-  #something {
-    padding-right: 7%; } }
-@media (max-width: 600px) {
-  #background {
-    height: 450px;
-    background-size: 150%; }
-
-  .title h6 {
-    font-size: .5em; }
-
-  .app-titles {
-    white-space: normal; }
-
-  .mdl-layout__header-row .mdl-navigation__link {
-    display: none; }
-
-  .added {
-    display: inline; }
-
-  .app-titles h2 {
-    font-size: 2em; }
-
-  .logo-group {
-    text-wrap: normal;
-    margin: auto;
-    padding: 10px; }
-
-  #something3 {
-    margin: auto;
-    transform: none; }
-
-  .fixedContainer {
-    all: initial; }
-
-  .vertical-center {
-    all: initial;
-    margin: auto; }
-
-  video {
-    width: 70%; }
-
-  .logo-group {
-    display: none; } }
-
-/*# sourceMappingURL=response.css.map */
+Backtrace:
+css/response.scss:195
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:761:in `block in try_declaration'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1141:in `call'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:401:in `media_directive'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:194:in `directive'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    font-size\": expected \";\", was \": .5em;\"\A         on line 195 of css/response.scss\A \A 190: \A 191: @media (max-width: $mediaBp4Width){\A 192: \A 193:   .col-xs-5,.col-xs-6 {\A 194:     width:50%\A 195:     font-size: .5em;\A 196:   }\A 197: \A 198: \A 199: \A 200: "; }

@@ -2,7 +2,7 @@
 $mediaBp1Width: 975px;
 $mediaBp2Width:600px;
 $mediaBp3Width: 768px;
-$mediaBp4Width: 500px;
+$mediaBp4Width: 414px;
 
 a:-webkit-any-link  {
   text-decoration: none;
@@ -188,15 +188,15 @@ h2{
 
 }
 
-//@media (max-width: $mediaBp4Width){
-//
-//
-//  //.app-titles{
-//  //  padding-right: 100px;
-//  //}
-//  //
-//  //.aqua-test-label{
-//  //  padding-right: 125px;
-//  //}
-//
-//}
+@media (max-width: $mediaBp4Width){
+
+  .col-xs-5,.col-xs-6 {
+    width:50%
+    font-size: .5em;
+  }
+
+
+
+
+
+}
