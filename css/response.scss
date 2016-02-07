@@ -129,6 +129,12 @@ h2{
 
 @media (max-width: $mediaBp2Width){
 
+
+  #background{
+    height: 450px;
+    background-size: 150%;
+  }
+
   .title h6 {
     font-size: .5em;
   }

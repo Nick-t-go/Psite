@@ -71,6 +71,10 @@ h2 {
   #something {
     padding-right: 7%; } }
 @media (max-width: 600px) {
+  #background {
+    height: 450px;
+    background-size: 150%; }
+
   .title h6 {
     font-size: .5em; }
 
