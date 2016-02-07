@@ -107,12 +107,9 @@ h2 {
     margin: auto; }
 
   video {
-    width: 70%; } }
-@media (max-width: 500px) {
-  .logo-group {
-    display: none; }
+    width: 70%; }
 
-  .app-titles {
-    padding-right: 100px; } }
+  .logo-group {
+    display: none; } }
 
 /*# sourceMappingURL=response.css.map */

@@ -181,16 +181,22 @@ h2{
     width:70%;
   }
 
-
-}
-
-@media (max-width: $mediaBp4Width){
   .logo-group{
     display: none;
   }
 
-  .app-titles{
-    padding-right: 100px;
-  }
 
 }
+
+//@media (max-width: $mediaBp4Width){
+//
+//
+//  //.app-titles{
+//  //  padding-right: 100px;
+//  //}
+//  //
+//  //.aqua-test-label{
+//  //  padding-right: 125px;
+//  //}
+//
+//}

@@ -169,7 +169,10 @@ video{
 .image{
     height:64px;
     width: 64px;
-    margin-left:20px;
+}
+
+.image-game {
+    margin: 0 10px;
 }
 
 .mdl-button{
