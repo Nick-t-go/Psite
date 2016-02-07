@@ -129,6 +129,13 @@ h2 {
   .small-row:before {
     content: "";
     display: table;
-    clear: both; } }
+    clear: both; }
+
+  .hidden {
+    display: block  !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: 50% !important;
+    margin: auto !important; } }
 
 /*# sourceMappingURL=response.css.map */

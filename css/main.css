@@ -2,6 +2,9 @@
     font-family: 'Droid Sans', sans-serif;
 }
 
+.hidden{
+    visibility: hidden;
+}
 
 .node circle {
     cursor: pointer;

@@ -193,10 +193,6 @@ h2{
 @media (max-width: $mediaBp4Width){
 
 
-
-
-
-
   .fixedContainer{
     display: none;
   }
@@ -221,6 +217,16 @@ h2{
     clear: both;
 
   }
+
+  .hidden{
+    display: block  !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: 50% !important;
+    margin: auto !important;
+  }
+
+
 
 
 
