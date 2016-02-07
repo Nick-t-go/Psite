@@ -112,17 +112,18 @@ h2 {
   .logo-group {
     display: none; } }
 @media (max-width: 414px) {
-  .col-xs-5, .col-xs-6 {
+  .col-xs-5, .col-xs-6, .fixedContainer {
+    width: 100%;
     font-size: .5em;
     margin-right: -15px;
     margin-left: -15px; }
 
-  .col-xs-5:after, .col-xs-6:after {
+  .col-xs-5:after, .col-xs-6:after, .fixedContainer {
     content: "";
     display: table;
     clear: both; }
 
-  .col-xs-5:before, .col-xs-6:before {
+  .col-xs-5:before, .col-xs-6:before, .fixedContainer {
     content: "";
     display: table;
     clear: both; } }
