@@ -42,6 +42,9 @@ h2 {
     margin-top: 3%;
     display: inline-block; }
 
+  .list-group {
+    margin-top: 7%; }
+
   .logo-group {
     padding-bottom: 3em; }
 
@@ -114,22 +117,6 @@ h2 {
 @media (max-width: 376px) {
   .fixedContainer {
     display: none; }
-
-  .small-row {
-    width: 100%;
-    font-size: .5em;
-    margin-right: -15px;
-    margin-left: -15px; }
-
-  .small-row:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-  .small-row:before {
-    content: "";
-    display: table;
-    clear: both; }
 
   .hidden, .col-xs-5 .col-sm-5 .col-md-6 .col-lg-6 .vertical-center {
     display: block  !important;
