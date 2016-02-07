@@ -112,6 +112,9 @@ h2 {
   .logo-group {
     display: none; } }
 @media (max-width: 414px) {
+  .row {
+    all: initial; }
+
   .col-xs-5, .col-xs-6 {
     width: 100%;
     font-size: .5em; }

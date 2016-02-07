@@ -190,6 +190,11 @@ h2{
 
 @media (max-width: $mediaBp4Width){
 
+
+  .row{
+    all: initial;
+  }
+
   .col-xs-5,.col-xs-6 {
     width:100%;
     font-size: .5em;
