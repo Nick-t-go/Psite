@@ -30,9 +30,10 @@ line.link {
     background: #F8FBDD;
     border-top: solid 1px #043e46;
     height: 100vh;
+    padding-top: 20px;
     background-image: url("../images/wordCloud.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 50%;
     background-size: contain;
 }
 .specialcontainer{
