@@ -1,6 +1,14 @@
 * {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Della Respira', serif ;
 }
+
+.button-text {
+    display: inline-block;
+}
+
+/*h2 {*/
+    /*font-family: 'Droid Sans', sans-serif;*/
+/*}*/
 
 .hidden{
     visibility: hidden;
