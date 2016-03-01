@@ -1,0 +1,250 @@
+$red:  #A5C89C;
+$blue: #579548;
+$green: #BA9FFB;
+
+
+
+
+* {
+  font-family: 'Della Respira', serif ;
+}
+
+.button-text {
+  display: inline-block;
+}
+
+/*h2 {*/
+/*font-family: 'Droid Sans', sans-serif;*/
+/*}*/
+
+.hidden{
+  visibility: hidden;
+}
+
+.node circle {
+  cursor: pointer;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+line.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+
+#background {
+  position:relative;
+  background: #F8FBDD;
+  border-top: solid 1px #043e46;
+  height: 800px;
+  padding-top: 20px;
+  background-image: url("../images/wordCloud.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+.specialcontainer{
+  padding-top: 50px;
+  width:100%;
+  position:relative;
+  height:1000px;
+  overflow:hidden;
+}
+#red {
+  background-color: $red;
+  background: -webkit-linear-gradient($red,white, $red); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($red,white, $red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($red,white, $red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($red,white, $red); /* Standard syntax */
+  border-top: solid 1px #043e46;
+  height:800px;
+}
+
+
+
+#blue {
+  background-color: $blue;
+  background: -webkit-linear-gradient($blue,white, $blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($blue,white, $blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($blue,white, $blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($blue,white, $blue); /* Standard syntax */
+  border-top: solid 1px #043e46;
+
+}
+
+#green {
+  background-color: $green;
+  background: -webkit-linear-gradient($green,white, $green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($green,white, $green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($green,white, $green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($green,white, $green); /* Standard syntax */
+  border-top: solid 1px #043e46;
+}
+
+
+.added{
+  display:none;
+}
+
+.fixedContainer {
+  margin-top: 15%;
+  z-index: 10;
+  position:absolute;
+  background-color:transparent;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+.mdl-layout__header {
+  background-color: #043e46;
+}
+
+#something {
+  height: 100%;
+  text-align:center;
+  left: 75%;
+}
+
+
+#something2, #something3 {
+  height: 100%;
+  text-align:center;
+  left: 75%
+}
+
+.mdl-layout__drawer-button{
+  height:60px;
+  width: 70px;
+}
+
+.title h6{
+  line-height: 56px;
+  margin:auto;
+}
+
+.mdl-layout__header-row {
+  height: 70px;
+}
+
+
+
+.app-titles h2{
+  color: #043e46;
+}
+
+/*video .web{*/
+/*height: 100%;*/
+/*max-width: 400px;*/
+/*text-align:center;*/
+
+
+/*}*/
+
+video{
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.vertical-center {
+  margin-top: 3%;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.contain{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mdl-button--fab{
+  background: lightgreen;
+}
+
+.logo-image {
+  margin-top: .65em;
+}
+
+
+
+.git{
+  margin-top: .5em;
+  height: 30px;
+  width: 30px;
+}
+
+.contain {
+  margin-top: 5%;
+}
+
+.image{
+  height:64px;
+  width: 64px;
+}
+
+.image-game {
+  margin: 0 10px;
+}
+
+.mdl-button{
+  margin-right: 5px;
+}
+
+.mdl-layout .mdl-js-layout .mdl-layout--fixed-header {
+  position: relative;
+}
+
+.mdl-logo {
+  float: none;
+}
+
+
+.list-group{
+  border: solid 1px #043e46;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+.list-group-item {
+  border: 0;
+  margin-bottom: 0;
+}
+
+
+.app-titles{
+  text-shadow: 0px 5px 10px #888888, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+.app-titles a:hover, a:focus
+{
+
+  -webkit-transition: 500ms linear 0s;
+  -moz-transition: 500ms linear 0s;
+  -o-transition: 500ms linear 0s;
+  transition: 500ms linear 0s;
+  outline: 0 none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+
+}
+
+
+
+/*video .mobile{*/
+/*max-height: 10px;*/
+/*max-width: 352px;*/
+/*}*/
