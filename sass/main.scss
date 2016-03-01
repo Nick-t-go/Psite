@@ -1,9 +1,9 @@
-$red:  #DBFDD2;
-$blue: #B4E6BA;
-$green: #C7FDB9;
+$red:   lighten(#015D4F, 75%);
+$blue:  lighten(#015D4F, 70%);
+$green:  lighten(#015D4F, 65%);
 $background: #F8FBDD;
 
-
+//#DBFDD2; #B4E6BA; #C7FDB9;
 
 
 * {
@@ -49,7 +49,7 @@ line.link {
   background: -o-linear-gradient($background,lighten($background,10%),white,lighten($background,10%), $background); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient($background,white, $background); /* For Firefox 3.6 to 15 */
   background: linear-gradient($background,white, $background); /* Standard syntax */
-  border-top: solid 1px #043e46;
+  border-top: inset 1px #043e46;
   height: 750px;
   ////background-image: url("../images/wordCloud.png");
   //background-repeat: no-repeat;

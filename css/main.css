@@ -37,7 +37,7 @@ line.link {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#F8FBDD, white, #F8FBDD);
   /* Standard syntax */
-  border-top: solid 1px #043e46;
+  border-top: inset 1px #043e46;
   height: 750px;
   background-size: contain; }
 
@@ -49,39 +49,39 @@ line.link {
   overflow: hidden; }
 
 #red {
-  background-color: #DBFDD2;
-  background: -webkit-linear-gradient(#DBFDD2, white, #DBFDD2);
+  background-color: #defffa;
+  background: -webkit-linear-gradient(#defffa, white, #defffa);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#DBFDD2, white, #DBFDD2);
+  background: -o-linear-gradient(#defffa, white, #defffa);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#DBFDD2, white, #DBFDD2);
+  background: -moz-linear-gradient(#defffa, white, #defffa);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#DBFDD2, white, #DBFDD2);
+  background: linear-gradient(#defffa, white, #defffa);
   /* Standard syntax */
   border-top: solid 1px #043e46;
   height: 800px; }
 
 #blue {
-  background-color: #B4E6BA;
-  background: -webkit-linear-gradient(#B4E6BA, white, #B4E6BA);
+  background-color: #c5fef6;
+  background: -webkit-linear-gradient(#c5fef6, white, #c5fef6);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#B4E6BA, white, #B4E6BA);
+  background: -o-linear-gradient(#c5fef6, white, #c5fef6);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#B4E6BA, white, #B4E6BA);
+  background: -moz-linear-gradient(#c5fef6, white, #c5fef6);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#B4E6BA, white, #B4E6BA);
+  background: linear-gradient(#c5fef6, white, #c5fef6);
   /* Standard syntax */
   border-top: solid 1px #043e46; }
 
 #green {
-  background-color: #C7FDB9;
-  background: -webkit-linear-gradient(#C7FDB9, white, #C7FDB9);
+  background-color: #abfef2;
+  background: -webkit-linear-gradient(#abfef2, white, #abfef2);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#C7FDB9, white, #C7FDB9);
+  background: -o-linear-gradient(#abfef2, white, #abfef2);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#C7FDB9, white, #C7FDB9);
+  background: -moz-linear-gradient(#abfef2, white, #abfef2);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#C7FDB9, white, #C7FDB9);
+  background: linear-gradient(#abfef2, white, #abfef2);
   /* Standard syntax */
   border-top: solid 1px #043e46; }
 
