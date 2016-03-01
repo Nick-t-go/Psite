@@ -44,39 +44,39 @@ line.link {
   overflow: hidden; }
 
 #red {
-  background-color: #A5C89C;
-  background: -webkit-linear-gradient(#A5C89C, white, #A5C89C);
+  background-color: #DBFDD2;
+  background: -webkit-linear-gradient(#DBFDD2, white, #DBFDD2);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#A5C89C, white, #A5C89C);
+  background: -o-linear-gradient(#DBFDD2, white, #DBFDD2);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#A5C89C, white, #A5C89C);
+  background: -moz-linear-gradient(#DBFDD2, white, #DBFDD2);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#A5C89C, white, #A5C89C);
+  background: linear-gradient(#DBFDD2, white, #DBFDD2);
   /* Standard syntax */
   border-top: solid 1px #043e46;
   height: 800px; }
 
 #blue {
-  background-color: #579548;
-  background: -webkit-linear-gradient(#579548, white, #579548);
+  background-color: #B4E6BA;
+  background: -webkit-linear-gradient(#B4E6BA, white, #B4E6BA);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#579548, white, #579548);
+  background: -o-linear-gradient(#B4E6BA, white, #B4E6BA);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#579548, white, #579548);
+  background: -moz-linear-gradient(#B4E6BA, white, #B4E6BA);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#579548, white, #579548);
+  background: linear-gradient(#B4E6BA, white, #B4E6BA);
   /* Standard syntax */
   border-top: solid 1px #043e46; }
 
 #green {
-  background-color: #BA9FFB;
-  background: -webkit-linear-gradient(#BA9FFB, white, #BA9FFB);
+  background-color: #C7FDB9git;
+  background: -webkit-linear-gradient(#C7FDB9git, white, #C7FDB9git);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#BA9FFB, white, #BA9FFB);
+  background: -o-linear-gradient(#C7FDB9git, white, #C7FDB9git);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#BA9FFB, white, #BA9FFB);
+  background: -moz-linear-gradient(#C7FDB9git, white, #C7FDB9git);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#BA9FFB, white, #BA9FFB);
+  background: linear-gradient(#C7FDB9git, white, #C7FDB9git);
   /* Standard syntax */
   border-top: solid 1px #043e46; }
 
