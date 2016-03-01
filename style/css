@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - style/scss
+
+Backtrace:
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin.rb:108:in `method_missing'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/bin/sass:23:in `load'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/bin/sass:23:in `<main>'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/uzer-y/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style/scss"; }
