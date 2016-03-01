@@ -191,6 +191,9 @@ a:hover {
   color: #fff;
   text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff; }
 
+.mdl-mini-footer {
+  background-color: #043e46; }
+
 /*video .mobile{*/
 /*max-height: 10px;*/
 /*max-width: 352px;*/
