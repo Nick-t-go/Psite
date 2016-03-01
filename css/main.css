@@ -69,14 +69,14 @@ line.link {
   border-top: solid 1px #043e46; }
 
 #green {
-  background-color: #C7FDB9git;
-  background: -webkit-linear-gradient(#C7FDB9git, white, #C7FDB9git);
+  background-color: #C7FDB9;
+  background: -webkit-linear-gradient(#C7FDB9, white, #C7FDB9);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#C7FDB9git, white, #C7FDB9git);
+  background: -o-linear-gradient(#C7FDB9, white, #C7FDB9);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#C7FDB9git, white, #C7FDB9git);
+  background: -moz-linear-gradient(#C7FDB9, white, #C7FDB9);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#C7FDB9git, white, #C7FDB9git);
+  background: linear-gradient(#C7FDB9, white, #C7FDB9);
   /* Standard syntax */
   border-top: solid 1px #043e46; }
 
