@@ -1,6 +1,7 @@
 $red:  #DBFDD2;
 $blue: #B4E6BA;
 $green: #C7FDB9;
+$background: #F8FBDD;
 
 
 
@@ -41,14 +42,18 @@ line.link {
 
 
 #background {
-  position:relative;
-  background: #F8FBDD;
+  text-shadow: 0px 5px 10px #888888, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: $background;
+  font-family: 'Bubblegum Sans', cursive;
+  background: -webkit-linear-gradient($background,white, $background); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($background,lighten($background,10%),white,lighten($background,10%), $background); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($background,white, $background); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($background,white, $background); /* Standard syntax */
   border-top: solid 1px #043e46;
-  height: 800px;
-  padding-top: 20px;
-  background-image: url("../images/wordCloud.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  height: 750px;
+  ////background-image: url("../images/wordCloud.png");
+  //background-repeat: no-repeat;
+  //background-position: 50% 50%;
   background-size: contain;
 }
 .specialcontainer{
@@ -212,6 +217,10 @@ video{
   border-radius: 4px;
   box-shadow: 10px 10px 5px #888888;
 
+}
+
+.mdl-button--fab{
+  background: #0DC6DF;
 }
 
 .list-group-item {
