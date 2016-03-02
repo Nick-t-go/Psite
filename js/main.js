@@ -49,8 +49,7 @@ $(document).ready(function(){
     $('#background').jQCloud(words,{colors: ["#0DC6DF","#0CB8CF", "#0BAAC0","#0A9DB1", "#098FA1", "#088292",
             "#077483", "#077483","#077483", "#066673", "#055964","#044B55"  ],
             fontSize: {from: 0.04, to: 0.02},
-            autoResize: true,
-            delay: 50
+            autoResize: true
         }
     );
 
